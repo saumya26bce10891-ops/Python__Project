@@ -1,6 +1,6 @@
 #mini LIBRARY MANAGEMENT SYSTEM
 
-library = ["Harry potter","Java programming","Python Programming","Goosebumps"
+library = ["Harry potter","Java programming","Python Programming","Goosebumps",
            "The Habbit",
           "The Alchemist",
          "1984",
@@ -106,5 +106,6 @@ while(True):
         return_books()
     elif choice=="6":
         print("Thankyou for choosing our library visit us soon!")
+        break
     else:
         print("invalid choice!please try again")
